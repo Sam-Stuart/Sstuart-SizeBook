@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sstuart-SizeBook</string>
+    <string name="add_entry">Add Entry</string>
+    <string name="review_entry">Review Entries</string>
+    <string name="name_field">Name:</string>
+    <string name="date_field">Date:</string>
+    <string name="neck_field">Neck:</string>
+    <string name="bust_field">Bust:</string>
+    <string name="chest_field">Chest:</string>
+    <string name="waist_field">Waist:</string>
+    <string name="hip_field">Hip:</string>
+    <string name="inseam_field">Inseam:</string>
+    <string name="comment_field">Comments:</string>
+    <string name="title_activity_edit">EditActivity</string>
+</resources>

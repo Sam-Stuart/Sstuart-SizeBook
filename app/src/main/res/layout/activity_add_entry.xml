@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_entry"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sstuart_sizebook.AddEntryActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_field"
+        android:textColor="#000000"
+        android:id="@+id/Name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Required field"
+        android:id="@+id/editTextName"
+        android:layout_alignBaseline="@+id/Name"
+        android:layout_alignBottom="@+id/Name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/Name"
+        android:layout_toEndOf="@+id/Name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date_field"
+        android:textColor="#000000"
+        android:id="@+id/Date"
+        android:layout_alignBaseline="@+id/editTextDate"
+        android:layout_alignBottom="@+id/editTextDate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextDate"
+        android:inputType="date"
+        android:hint="yyyy-mm-dd"
+        android:layout_below="@+id/editTextName"
+        android:layout_alignLeft="@+id/editTextName"
+        android:layout_alignStart="@+id/editTextName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/neck_field"
+        android:textColor="#000000"
+        android:id="@+id/Neck"
+        android:layout_alignBaseline="@+id/editTextNeck"
+        android:layout_alignBottom="@+id/editTextNeck"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextNeck"
+        android:inputType="numberDecimal"
+        android:layout_below="@+id/editTextDate"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/editTextDate"
+        android:layout_alignStart="@+id/editTextDate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bust_field"
+        android:textColor="#000000"
+        android:id="@+id/Bust"
+        android:layout_alignBaseline="@+id/editTextBust"
+        android:layout_alignBottom="@+id/editTextBust"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextBust"
+        android:inputType="numberDecimal"
+
+        android:layout_below="@+id/editTextNeck"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/editTextNeck"
+        android:layout_alignStart="@+id/editTextNeck" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chest_field"
+        android:textColor="#000000"
+        android:id="@+id/Chest"
+        android:layout_alignBaseline="@+id/editTextChest"
+        android:layout_alignBottom="@+id/editTextChest"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextChest"
+        android:inputType="numberDecimal"
+
+        android:layout_below="@+id/editTextBust"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/editTextBust"
+        android:layout_alignStart="@+id/editTextBust" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/waist_field"
+        android:textColor="#000000"
+        android:id="@+id/Waist"
+        android:layout_alignBaseline="@+id/editTextWaist"
+        android:layout_alignBottom="@+id/editTextWaist"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextWaist"
+        android:inputType="numberDecimal"
+
+        android:layout_below="@+id/editTextChest"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/editTextChest"
+        android:layout_alignStart="@+id/editTextChest" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hip_field"
+        android:textColor="#000000"
+        android:id="@+id/Hip"
+        android:layout_alignBaseline="@+id/editTextHip"
+        android:layout_alignBottom="@+id/editTextHip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextHip"
+        android:inputType="numberDecimal"
+
+        android:layout_below="@+id/editTextWaist"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/editTextWaist"
+        android:layout_alignStart="@+id/editTextWaist" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inseam_field"
+        android:textColor="#000000"
+        android:id="@+id/Inseam"
+        android:layout_alignBaseline="@+id/editTextInseam"
+        android:layout_alignBottom="@+id/editTextInseam"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextInseam"
+        android:inputType="numberDecimal"
+
+        android:layout_below="@+id/editTextHip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/Inseam"
+        android:layout_toEndOf="@+id/Inseam" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comment_field"
+        android:textColor="#000000"
+        android:id="@+id/Comment"
+        android:layout_alignBaseline="@+id/editTextComment"
+        android:layout_alignBottom="@+id/editTextComment"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextComment"
+        android:inputType="text"
+
+        android:layout_below="@+id/editTextInseam"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignRight="@+id/Comment"
+        android:layout_toRightOf="@+id/Comment"
+        android:layout_toEndOf="@+id/Comment" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextComment"
+        android:text="@string/add_entry"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp"
+        android:id="@+id/Add" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return"
+        android:id="@+id/Return"
+        android:layout_alignBaseline="@+id/Add"
+        android:layout_alignBottom="@+id/Add"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
